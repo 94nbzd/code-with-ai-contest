@@ -72,3 +72,28 @@ streamlit run app.py --server.port 8501
 - **赛事**：Code with AI 海选赛
 - **作品**：5G 信号可视化看板挑战
 - **框架**：Streamlit · PyDeck · Plotly
+
+---
+
+## 🚀 快速运行
+
+```bash
+# 安装依赖
+pip install -r requirements.txt
+
+# 启动看板
+streamlit run app.py --server.port 8501
+```
+
+浏览器打开 http://localhost:8501
+
+## 📋 参赛信息
+
+| 项目 | 内容 |
+|------|------|
+| 赛事 | Code with AI 海选赛 |
+| 框架 | Streamlit + PyDeck + Plotly |
+| 基础关卡 | ✅ 完成 |
+| 进阶关卡 | ✅ 完成 |
+| 基础标签时间 | 2026-05-08T09:36:30Z |
+| 进阶标签时间 | 2026-05-08T09:36:30Z |
