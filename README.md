@@ -2,6 +2,12 @@
 
 > Code with AI 海选赛作品 · 5G 路测数据交互式可视化
 
+![看板截图](https://raw.githubusercontent.com/94nbzd/code-with-ai-contest/main/screenshots/dashboard-preview.png)
+
+# 📡 5G 信号可视化看板
+
+> Code with AI 海选赛作品 · 5G 路测数据交互式可视化
+
 ## 项目简介
 
 本项目将 5G 路测数据（包含经纬度、频段、RSRP、SINR、终端类型、下载速率等字段）转化为一个高大上的交互式 Web 可视化看板，基于 **Streamlit + PyDeck + Plotly** 构建。
@@ -97,3 +103,4 @@ streamlit run app.py --server.port 8501
 | 进阶关卡 | ✅ 完成 |
 | 基础标签时间 | 2026-05-08T09:36:30Z |
 | 进阶标签时间 | 2026-05-08T09:36:30Z |
+
