@@ -176,7 +176,8 @@ with tab_map_2d:
 
     st.pydeck_chart(
         pdk.Deck(
-            map_style="mapbox://styles/mapbox/dark-v11",
+            # 使用 CARTO 免费深色底图，无需 Mapbox token
+            map_style="https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
             initial_view_state=view_state,
             layers=[layer],
             tooltip={"text": "{CellID} | RSRP: {RSRP_dBm} dBm | SINR: {SINR_dB} dB\nBand: {Band} | {TerminalType}"}
@@ -220,7 +221,8 @@ with tab_map_3d:
 
     st.pydeck_chart(
         pdk.Deck(
-            map_style="mapbox://styles/mapbox/dark-v11",
+            # 使用 CARTO 免费深色底图，无需 Mapbox token
+            map_style="https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
             initial_view_state=view_state_3d,
             layers=[layer_3d],
             tooltip={"text": "Band {Band} | RSRP: {RSRP_dBm} dBm\n下载速率: {Download_Mbps:.1f} Mbps"},
