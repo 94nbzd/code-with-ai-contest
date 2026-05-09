@@ -283,12 +283,13 @@ with chart_col3:
 
 with chart_col4:
     st.markdown("**📡 SINR vs 下载速率 关系**")
+    df_filtered["RSRP_size"] = df_filtered["RSRP_dBm"] + 140  # shift to positive range for marker size
     fig_scatter = px.scatter(
         df_filtered,
         x="SINR_dB",
         y="Download_Mbps",
         color="Band",
-        size="RSRP_dBm",
+        size="RSRP_size",
         color_discrete_sequence=px.colors.qualitative.Bold,
         opacity=0.7
     )
